@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @RequestMapping("/")
 public class CicdController {
-    @GetMapping("/")
+    @GetMapping("/cicd")
     public String cicdGet(){
         return "hello cicd";
     }
